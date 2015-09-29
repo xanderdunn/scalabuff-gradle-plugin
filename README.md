@@ -94,7 +94,7 @@ scalabuff {
     generatedResourcesDir = file("${scalabuff.outputDir}/generated-resources") // read-only
 	
     failIfProtocNotDetected = false
-    generateDescriptor      = true
+    generateDescriptors     = true
     protocPath              = 'protoc'
 }
 ```
